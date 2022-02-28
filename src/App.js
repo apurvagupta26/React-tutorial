@@ -4,9 +4,9 @@ import NewExpense from './components/NewExpense/NewExpense';
 import { useState } from 'react';
 
 const DUMMY_EXPENSES=[
-  {title:'Car Insurance',date:new Date(2020, 7, 14),amount:294.67},
-  {title:'TV Insurance',date:new Date(2021, 2, 28),amount:200.67},
-  {title:'Medical Insurance',date:new Date(2021, 5, 12),amount:287.67} 
+  {id:'e1',title:'Car Insurance',date:new Date(2020, 7, 14),amount:294.67},
+  {id:'e2',title:'TV Insurance',date:new Date(2021, 2, 28),amount:200.67},
+  {id:'e3',title:'Medical Insurance',date:new Date(2021, 5, 12),amount:287.67} 
 ]
 
 const App=()=> {
